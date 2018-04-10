@@ -1,0 +1,22 @@
+{
+  "name": "e2etnt",
+  "version": "1.0.0",
+  "description": "A simple Typescript Node Template for E2E testing. Uses Selenium Webdriver, Protractor, and ",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./dist/config.js",
+    "watch": "tsc -w",
+    "build": "tsc -p .",
+    "start-driver": "gulp e2e"
+  },
+  "author": "@ginjacoder",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/protractor": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-protractor": "^4.1.0",
+    "typescript": "^2.8.1"
+  }
+}
